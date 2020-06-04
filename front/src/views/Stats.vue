@@ -1,7 +1,8 @@
 <template>
-  <div class="stats">
+  <div class="content">
     <h1 class="title">Statistiques</h1>
 
+    <p class="subtitle">Statistiques du sommeil durant la période du 04/06/2020 au 11/06/2020</p>
     <div class="columns">
       <div class="column is-6 is-offset-3">
         <b-table :data="data">
@@ -18,7 +19,7 @@
               {{ props.row.date }}
             </b-table-column>
 
-            <b-table-column field="apercu" label="Apercu" sortable centered>
+            <b-table-column field="apercu" label="Apercu" centered>
               <template v-if="props.row.type === 'Son'">
                 <b-button @click.prevent="playSound(getRandomSound())" icon-right="play" />
               </template>
@@ -38,7 +39,7 @@
           </template>
         </b-table>
       </div>
-    </div>
+  </div>
 
   </div>
 </template>
