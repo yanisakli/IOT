@@ -6,7 +6,12 @@
       <router-link to="/messages">Messages</router-link> |
       <router-link to="/vocals">Vocals</router-link>
     </div>
-    <router-view />
+    <transition
+      name="fade"
+      mode="out-in"
+    >
+      <router-view />
+    </transition>
   </div>
 </template>
 
