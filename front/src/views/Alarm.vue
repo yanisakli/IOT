@@ -1,20 +1,32 @@
 <template>
   <div class="alarm">
     <div class="columns">
-      <div class="column">{{ currentTime }}</div>
+      <div class="column">
+        <div class="columns">
+          <div class="column">
+            <h1 class="title">{{ getTime() }}</h1>
+          </div>
+        </div>
+        <div class="columns">
+            <div class="column">
+              <h3 class="subtitle">{{ getFullDate() }}</h3>
+            </div>
+        </div>
+      </div>
     </div>
 
     <div v-if="alarmValidated" class="columns">
-      <div class="column">{{ alarm }}</div>
+      <div class="column clock">{{ alarm }}</div>
     </div>
 
     <div class="columns">
       <div class="column is-4 is-offset-4">
-        <b-button v-if="alarmValidated" type="is-danger">Supprimer</b-button>
+        <b-button v-if="alarmValidated" type="is-danger" @click="deleteTime()">Supprimer</b-button>
         <b-collapse v-if="!alarmValidated" :open="false">
           <button class="button is-primary" slot="trigger">Add alarm</button>
           <b-datetimepicker
             v-model="alarm"
+            :min-datetime="currentTime"
             class="m-top"
             rounded
             placeholder="Click to select..."
@@ -29,7 +41,8 @@
 </template>
 
 <script>
-import { addSeconds } from "date-fns";
+import { addSeconds, format } from "date-fns";
+import { fr } from 'date-fns/locale'
 
 export default {
   data() {
@@ -56,9 +69,21 @@ export default {
     validateAlarm() {
       if(this.alarm) {
         this.alarmValidated = true;
+        // Send http request to backend api with the alarm as a parameter
       } else {
         alert('Date is empty');
       }
+    },
+    deleteTime() {
+      this.alarm = null;
+      this.alarmValidated = false;
+      // Send http request to backend api to delete alarm
+    },
+    getTime() {
+      return format(this.currentTime, 'hh:mm:ss');
+    },
+    getFullDate() {
+      return format(this.currentTime, 'EEEE d MMMM', { locale: fr });
     }
   }
 };
