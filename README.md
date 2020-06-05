@@ -1,41 +1,56 @@
-# Connected pillow `DreamJob`
-# Team 
-    - AKLI Yanis
-    - DANINTHE Diego 
-    - DÉSERT Ruben 
-    - GOUARIN Florian
-    - RICHARD Florian
-# Presentation
-    Today there are different products with the same name (connected cushion), but with a different purpose than our product.
-    This is particularly the case with the connected cushion, Viktor. Recently released at the end of 2019, which targets an elderly population (60 to 69 years old) and whose objective is to reduce the social distancing with our seniors. The purchase price of this product is 250 euros.
-    There is also the Pillow Talk, which is a cushion that allows you to "get closer" to your spouse, via a device that includes a heart rate monitor, which reacts to the latter by emitting lights and allows you to listen to the other person's heartbeat. This product is intended for people with an average age of about 30 years. The purchase price of this product is 165 euros.
-    Other products, such as the Zeeq, aim to improve the quality of sleep, for example by preventing snorers from snoring or cushions to reduce stress and anxiety.
-    It is therefore noted that there are different connected cushions but that their uses can be completely different and the exercise of its application can be very broad.
-    The average price for a connected cushion is on average 200 euros and tends to be aimed at an average age group (30-40 years old) mostly.
-    
-# Functionality
-    **Alarm clock:** 
+# `DreamJob` : 🛌 The new generation of smart pillow 😴 
+
+## Team 
+- AKLI Yanis
+- DANINTHE Diego 
+- DÉSERT Ruben 
+- GOUARIN Florian
+- RICHARD Florian
+
+## Presentation  
+Dreamjob is a school project that has been designed with the help (of) five of the smartest engineers of the world (except Diego). This pillow will be used by billion of people around the world.  
+
+## Usage  
+
+## Features
+
+- Alarm clock :
     -   Tazer after 1 minute late.
-    **Sleep monitoring:**
+- Sleep monitoring :
     -   Record sounds during the night.
     -   Detect movement during sleep.
-    **Speaker connected.
-    Record voice messages.
-    Light + soft word detection according to sleep brightness/cycle.**
-    
-# Requisite knowledge
-    VueJS
-    TinkerCad
-    IOT
-    Electronic
-    Fitcherz
-    Paint
-    
+- Speaker connected
+- Record voice messages
+- Light + soft word detection according to sleep brightness/cycle
 
-    
-    
+## Requisite knowledge
+- VueJS 2
+- TinkerCad
+- IOT
+- Electronic
+- Fitcherz
+- Paint (for Diego)
+       
+## Requirements  
 
-    
-    
-    
-    
+Arduino UNO (contre uno lol)  
+
+![alt text](https://static4.arrow.com/-/media/arrow/images/products/1217/1217-arduino-uno-smd.jpg "Arduino UNO")
+
+Bluetooth Module HC-05  
+
+![alt text](https://www.mataucarre.fr/wp-content/uploads/2018/04/hc05.jpeg "Bluetooth module HC-05")
+
+Speaker
+
+![alt text](https://res.cloudinary.com/rsc/image/upload/b_rgb:FFFFFF,c_pad,dpr_1.0,f_auto,h_393,q_auto,w_700/c_pad,h_393,w_700/F4318658-01?pgw=1 "Haut-parleur Visaton, 8Ω, 2W")
+
+Accelerometer  
+
+![alt text](https://res.cloudinary.com/rsc/image/upload/b_rgb:FFFFFF,c_pad,dpr_1.0,f_auto,h_393,q_auto,w_700/c_pad,h_393,w_700/F9054665-01?pgw=1 "Adafruit MMA8451")
+
+Microphone  
+![alt text](https://ae01.alicdn.com/kf/Haf5332f68c234abf9eda3453f664d5a4S/Contr-le-automatique-de-Gain-de-Module-de-carte-d-amplificateur-d-agc-de-Microphone-de.jpg "MAX9814")
+
+## How it works  
+
