@@ -20,7 +20,13 @@
             </b-table-column>
 
             <b-table-column field="play">
-              <b-button @click.prevent="playSound(musicUrl)" icon-right="play" />
+              <b-button @click.prevent="playSound(musicUrl)" :icon-right="musicIcon" />
+            </b-table-column>
+            <b-table-column field="Selection" label="Selection">
+              <b-radio v-model="radio"
+                       :native-value="props.row.title"
+                       name="name">
+              </b-radio>
             </b-table-column>
           </template>
         </b-table>
@@ -37,16 +43,30 @@
       return {
         musics: [
           { 'id': 1, 'title': 'Off Course', 'artist': 'Migos'},
+          { 'id': 1, 'title': 'Gooba', 'artist': '6ix9ine'},
+          { 'id': 1, 'title': "La vie d'artiste", 'artist': 'Cristophe Maé'},
         ],
-        musicUrl: 'https://files.freemusicarchive.org/storage-freemusicarchive-org/music/WFMU/Broke_For_Free/Directionless_EP/Broke_For_Free_-_01_-_Night_Owl.mp3'
+        radio: null,
+        musicUrl: 'https://files.freemusicarchive.org/storage-freemusicarchive-org/music/WFMU/Broke_For_Free/Directionless_EP/Broke_For_Free_-_01_-_Night_Owl.mp3',
+        musicStart: false,
+        musicIcon: 'play',
+        audio: null
 
       }
     },
     methods: {
       playSound (sound) {
         if(sound) {
-          const audio = new Audio(this.musicUrl);
-          audio.play();
+          if (this.musicStart) {
+            this.audio.pause()
+            this.musicStart = false
+            this.musicIcon = 'play'
+            return
+          }
+          this.audio = new Audio(this.musicUrl);
+          this.audio.play();
+          this.musicStart = true
+          this.musicIcon = 'pause'
         }
       }
     }
