@@ -1,6 +1,8 @@
 <template>
   <div class="messages">
-    <h1>Message</h1>
+    <h1 class="title">Message</h1>
+
+    <p class="subtitle">Ecouter tout vos messages</p>
     <div class="columns">
       <div class="column is-6 is-offset-3">
         <b-table :data="messages">
