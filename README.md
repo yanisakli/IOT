@@ -8,7 +8,7 @@
 - RICHARD Florian
 
 ## Presentation  
-Dreamjob is a school project that has been designed with the help (of) five of the smartest engineers of the world (except Diego). This pillow will be used by billion of people around the world.  
+Dreamjob is a school project that has been designed with the help of five of the smartest engineers of the world (except Diego). This pillow will be used by billion of people around the world.  
 
 ## Usage  
 
@@ -19,7 +19,7 @@ Dreamjob is a school project that has been designed with the help (of) five of t
 - Sleep monitoring :
     -   Record sounds during the night.
     -   Detect movement during sleep.
-- Speaker connected
+- Connected speaker
 - Record voice messages
 - Light + soft word detection according to sleep brightness/cycle
 
@@ -33,9 +33,9 @@ Dreamjob is a school project that has been designed with the help (of) five of t
        
 ## Requirements  
 
-Arduino UNO (contre uno lol)  
+Arduino UNO
 
-![alt text](https://static4.arrow.com/-/media/arrow/images/products/1217/1217-arduino-uno-smd.jpg "Arduino UNO")
+![alt text](https://projetsdiy.fr/wp-content/uploads/2017/10/diy-dccduino-atmega328-development-board-for-arduino-uno-r3-blue-1-e1557480625518.jpg "Arduino UNO")
 
 Bluetooth Module HC-05  
 
