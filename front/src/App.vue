@@ -1,5 +1,9 @@
 <template>
   <div id="app">
+    <div id="battery" v-if="battery">
+      {{ battery }} % batterie
+      <b-icon :icon="'battery-' + battery"></b-icon>
+    </div>
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/stats">Statistiques</router-link> |
@@ -17,6 +21,20 @@
 
 <script>
   export default {
+    data() {
+      return {
+        batteryPercentages: [10, 20, 30, 40, 50, 60, 70, 80, 90],
+        battery: null
+      }
+    },
+    created() {
+      this.battery = this.randomPercentage()
+    },
+    methods: {
+      randomPercentage() {
+        return this.batteryPercentages[Math.floor(Math.random() * Math.floor(this.batteryPercentages.length))]
+      }
+    }
   }
 </script>
 <style>
