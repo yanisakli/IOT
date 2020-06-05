@@ -43,8 +43,8 @@
       return {
         musics: [
           { 'id': 1, 'title': 'Off Course', 'artist': 'Migos'},
-          { 'id': 1, 'title': 'Gooba', 'artist': '6ix9ine'},
-          { 'id': 1, 'title': "La vie d'artiste", 'artist': 'Cristophe Maé'},
+          { 'id': 2, 'title': 'Gooba', 'artist': '6ix9ine'},
+          { 'id': 3, 'title': "La vie d'artiste", 'artist': 'Cristophe Maé'},
         ],
         radio: null,
         musicUrl: 'https://files.freemusicarchive.org/storage-freemusicarchive-org/music/WFMU/Broke_For_Free/Directionless_EP/Broke_For_Free_-_01_-_Night_Owl.mp3',
