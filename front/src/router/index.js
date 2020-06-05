@@ -1,9 +1,10 @@
-import Vue from "vue";
+import Vue       from "vue";
 import VueRouter from "vue-router";
-import Alarm from "../views/Alarm.vue";
-import Stats from "../views/Stats.vue";
-import Vocal from "../views/Vocal.vue";
-import Message from "../views/Message.vue";
+import Alarm     from "../views/Alarm.vue";
+import Stats     from "../views/Stats.vue";
+import Vocal     from "../views/Vocal.vue";
+import Message   from "../views/Message.vue";
+import Music     from '../views/Music'
 
 Vue.use(VueRouter);
 
@@ -27,6 +28,11 @@ const routes = [
     path: "/messages",
     name: "message",
     component: Message
+  },
+  {
+    path: "/music",
+    name: "music",
+    component: Music
   }
 ];
 
