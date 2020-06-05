@@ -15,15 +15,20 @@
       </div>
     </div>
 
-    <div v-if="alarmValidated" class="columns">
-      <div class="column clock">{{ alarm }}</div>
+    <div v-if="alarmValidated">
+      <div class="columns">
+        <h2 class="column title">Reveil</h2>
+      </div>
+      <div class="columns">
+        <div class="column clock">{{ getFullDateTimeClock() }}</div>
+      </div>
     </div>
 
     <div class="columns">
       <div class="column is-4 is-offset-4">
-        <b-button v-if="alarmValidated" type="is-danger" @click="deleteTime()">Supprimer</b-button>
+        <b-button v-if="alarmValidated" type="is-danger" class="m-top" @click="deleteTime()">Supprimer</b-button>
         <b-collapse v-if="!alarmValidated" :open="false">
-          <button class="button is-primary" slot="trigger">Add alarm</button>
+          <button class="button is-primary" slot="trigger">Ajout d'un reveil</button>
           <b-datetimepicker
             v-model="alarm"
             :min-datetime="currentTime"
@@ -80,10 +85,13 @@ export default {
       // Send http request to backend api to delete alarm
     },
     getTime() {
-      return format(this.currentTime, 'hh:mm:ss');
+      return format(this.currentTime, 'HH:mm:ss');
     },
     getFullDate() {
       return format(this.currentTime, 'EEEE d MMMM', { locale: fr });
+    },
+    getFullDateTimeClock() {
+      return format(this.alarm, 'EEEE d MMMM HH:mm', { locale: fr });
     }
   }
 };
