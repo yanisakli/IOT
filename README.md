@@ -1,6 +1,6 @@
 # `DreamJob` : 🛌 The new generation of smart pillow 😴 
 
-## Team 
+## Team :fire: 
 - AKLI Yanis
 - DANINTHE Diego 
 - DÉSERT Ruben 
@@ -10,7 +10,25 @@
 ## Presentation  
 Dreamjob is a school project that has been designed with the help of five of the smartest engineers of the world (except Diego). This pillow will be used by billion of people around the world.  
 
-Are you tired of not waking up like Théo and Loïc ? We got the solution FOR YOU ! With our new homemade technology,  
+Are you tired of not waking up (like Théo and Loïc) :trollface:? We got the solution FOR YOU ! With our new homemade technology,  TODO [COMPLETER]
+
+## Features
+- Alarm clock :
+    -   Tazer after 1 minute late.
+- Sleep monitoring :
+    -   Record sounds during the night.
+    -   Detect movement during sleep.
+- Connected speaker
+- Record voice messages
+- Light + soft word detection according to sleep brightness/cycle
+
+## Requisite knowledge
+- VueJS 2
+- TinkerCad
+- IOT
+- Electronic
+- Fritzing
+- Paint (for Diego)
 
 ## 3D Modeling
 - Link : https://www.tinkercad.com/things/e57LVS0muZ7
@@ -38,24 +56,6 @@ Are you tired of not waking up like Théo and Loïc ? We got the solution FOR YO
 
 ![alt text](https://github.com/yanisakli/IOT/blob/master/Images/Fritzing_image_three.png?raw=true "Printed circuit board")
 
-
-## Features
-- Alarm clock :
-    -   Tazer after 1 minute late.
-- Sleep monitoring :
-    -   Record sounds during the night.
-    -   Detect movement during sleep.
-- Connected speaker
-- Record voice messages
-- Light + soft word detection according to sleep brightness/cycle
-
-## Requisite knowledge
-- VueJS 2
-- TinkerCad
-- IOT
-- Electronic
-- Fritzing
-- Paint (for Diego)
        
 ## Requirements  
 Arduino UNO
@@ -92,8 +92,20 @@ Microphone
 
 To use the pillow, you'll need to download the mobile application. This application will mainly help you to configure your pillow. 
 
-![alt text](url "")
-![alt text](url "")
-![alt text](url "")
-![alt text](url "")
-![alt text](url "")
+TODO: [COMPLETER]
+
+
+Alarm :  
+![alt text](https://github.com/yanisakli/IOT/blob/master/Images/site_alarm.png?raw=true "alarm")  
+
+Messages :  
+![alt text](https://github.com/yanisakli/IOT/blob/master/Images/site_messages.png?raw=true "messages")  
+
+Musics :  
+![alt text](https://github.com/yanisakli/IOT/blob/master/Images/site_music.png?raw=true "music")  
+
+Statistics :  
+![alt text](https://github.com/yanisakli/IOT/blob/master/Images/site_statistiques.png?raw=true "statistics")  
+
+Vocals :  
+![alt text](https://github.com/yanisakli/IOT/blob/master/Images/site_vocals.png?raw=true "vocals")
