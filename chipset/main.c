@@ -46,7 +46,7 @@ void handleCommand(String c) {
     long nextAlarmInMin = c.substring(3).toInt();
     Serial.print("Next alarm in ");
     Serial.print(nextAlarmInMin);
-    Serial.println("min");
+    Serial.println("sec");
 
     nextAlarm = nextAlarmInMin * 1000;
     EEPROM.write(0, nextAlarmInMin);
