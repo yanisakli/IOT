@@ -14,6 +14,8 @@ Dreamjob is a school project that has been designed with the help of five of the
 - Link : https://www.tinkercad.com/things/e57LVS0muZ7
 - Preview : 
 
+![alt text](https://github.com/yanisakli/IOT/blob/master/Images/Oreiller%20connect%C3%A9.png "3D modeling")
+
 ## Usage  
 
 ## Features
@@ -39,7 +41,7 @@ Arduino UNO
 - Price : https://store.arduino.cc/arduino-uno-rev3
 - Preview :
 
-![alt text](https://static4.arrow.com/-/media/arrow/images/products/1217/1217-arduino-uno-smd.jpg "Arduino UNO")
+![alt text](https://projetsdiy.fr/wp-content/uploads/2017/10/diy-dccduino-atmega328-development-board-for-arduino-uno-r3-blue-1-e1557480625518.jpg "Arduino UNO")
 
 Bluetooth Module HC-05
 - Price : https://www.amazon.fr/Hc05-Bluetooth-Module/s?k=Hc05+Bluetooth+Module
@@ -67,4 +69,4 @@ Microphone
 
 ## How it works  
 
-To use the pillow, you'll need to download the mobile application. This application 
+To use the pillow, you'll need to download the mobile application. This application will 
