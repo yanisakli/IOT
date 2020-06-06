@@ -10,7 +10,7 @@
 ## Presentation :clipboard:
 Dreamjob is a school project that has been designed with the help of five of the smartest engineers of the world. This pillow will be used by billion of people around the world.  
 
-Are you tired of not waking up? We got the solution FOR YOU ! With our new homemade technology.
+Are you tired of not waking up? We got the solution FOR YOU !
 
 ## Features
 - Alarm clock :
