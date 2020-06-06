@@ -30,6 +30,7 @@
     name: "Message",
     data() {
       return {
+        //get messages from phone
         messages: [
           { 'id': 1, 'date': '2020-06-04 23:22:24'},
           { 'id': 2, 'date': '2020-06-05 23:22:24'},
