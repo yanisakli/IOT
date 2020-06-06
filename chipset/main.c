@@ -94,7 +94,7 @@ void loop()
         digitalWrite(electroPin, LOW);
       } else {
         // Trigger alarm
-          tone(speakerPin, 500);
+        tone(speakerPin, 500);
         digitalWrite(electroPin, HIGH);
       }
     }
