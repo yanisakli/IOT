@@ -10,13 +10,25 @@
 ## Presentation  
 Dreamjob is a school project that has been designed with the help of five of the smartest engineers of the world (except Diego). This pillow will be used by billion of people around the world.  
 
+Are you tired of not waking up like Théo and Loïc ? We got the solution FOR YOU ! With our new homemade technology, that 
+
 ## 3D Modeling
 - Link : https://www.tinkercad.com/things/e57LVS0muZ7
 - Preview : 
 
-![alt text](https://github.com/yanisakli/IOT/blob/master/Images/Oreiller%20connect%C3%A9.png "3D modeling")
+![alt text](https://github.com/yanisakli/IOT/blob/master/Images/oreiller_connecte.png?raw=true "3D modeling")
 
-## Usage  
+## TinkerCad
+- Link : https://www.tinkercad.com/things/flPeWX74jp5
+- Preview : 
+
+![alt text](https://github.com/yanisakli/IOT/blob/master/Images/TinkerCad.png?raw=true "TinkerCad")
+
+## Fritzing
+- Link : https://www.tinkercad.com/things/flPeWX74jp5
+- Preview : 
+
+![alt text](https://github.com/yanisakli/IOT/blob/master/Images/TinkerCad.png?raw=true "TinkerCad")
 
 ## Features
 - Alarm clock :
@@ -69,4 +81,4 @@ Microphone
 
 ## How it works  
 
-To use the pillow, you'll need to download the mobile application. This application will 
+To use the pillow, you'll need to download the mobile application. This application will mainly help you to configure your pillow. 
