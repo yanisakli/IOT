@@ -10,7 +10,7 @@
 ## Presentation  
 Dreamjob is a school project that has been designed with the help of five of the smartest engineers of the world (except Diego). This pillow will be used by billion of people around the world.  
 
-Are you tired of not waking up like Théo and Loïc ? We got the solution FOR YOU ! With our new homemade technology, that 
+Are you tired of not waking up like Théo and Loïc ? We got the solution FOR YOU ! With our new homemade technology,  
 
 ## 3D Modeling
 - Link : https://www.tinkercad.com/things/e57LVS0muZ7
@@ -26,9 +26,18 @@ Are you tired of not waking up like Théo and Loïc ? We got the solution FOR YO
 
 ## Fritzing
 - Link : https://www.tinkercad.com/things/flPeWX74jp5
-- Preview : 
+- Preview of the Diagram Platinum test board: 
 
-![alt text](https://github.com/yanisakli/IOT/blob/master/Images/TinkerCad.png?raw=true "TinkerCad")
+![alt text](https://github.com/yanisakli/IOT/blob/master/Images/Fritzing_image_one.png?raw=true "Diagram Platinum test board")
+
+- Preview of the Schematic View: 
+
+![alt text](https://github.com/yanisakli/IOT/blob/master/Images/Fritzing_image_two.png?raw=true "Schematic View")
+
+- Preview of the Printed circuit board : 
+
+![alt text](https://github.com/yanisakli/IOT/blob/master/Images/Fritzing_image_three.png?raw=true "Printed circuit board")
+
 
 ## Features
 - Alarm clock :
@@ -82,3 +91,9 @@ Microphone
 ## How it works  
 
 To use the pillow, you'll need to download the mobile application. This application will mainly help you to configure your pillow. 
+
+![alt text](url "")
+![alt text](url "")
+![alt text](url "")
+![alt text](url "")
+![alt text](url "")
