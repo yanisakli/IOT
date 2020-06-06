@@ -51,7 +51,7 @@ void handleCommand(String c) {
     nextAlarm = nextAlarmInMin * 1000;
     EEPROM.write(0, nextAlarmInMin);
   } else {
-       Serial.println("Unknown command: " + c);
+     Serial.println("Unknown command: " + c);
   }
 }
 
