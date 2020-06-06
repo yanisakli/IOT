@@ -8,9 +8,9 @@
 - RICHARD Florian
 
 ## Presentation :clipboard:
-Dreamjob is a school project that has been designed with the help of five of the smartest engineers of the world (except Diego). This pillow will be used by billion of people around the world.  
+Dreamjob is a school project that has been designed with the help of five of the smartest engineers of the world. This pillow will be used by billion of people around the world.  
 
-Are you tired of not waking up (like Théo and Loïc) :trollface:? We got the solution FOR YOU ! With our new homemade technology.
+Are you tired of not waking up? We got the solution FOR YOU ! With our new homemade technology.
 
 ## Features
 - Alarm clock :
@@ -28,7 +28,7 @@ Are you tired of not waking up (like Théo and Loïc) :trollface:? We got the so
 - IOT
 - Electronic
 - Fritzing
-- Paint (for Diego :trollface:)
+- Paint
 
 ## 3D Modeling :chart_with_upwards_trend:
 - Link : https://www.tinkercad.com/things/e57LVS0muZ7
