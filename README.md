@@ -7,7 +7,7 @@
 - GOUARIN Florian
 - RICHARD Florian
 
-## Presentation  
+## Presentation :clipboard:
 Dreamjob is a school project that has been designed with the help of five of the smartest engineers of the world (except Diego). This pillow will be used by billion of people around the world.  
 
 Are you tired of not waking up (like Théo and Loïc) :trollface:? We got the solution FOR YOU ! With our new homemade technology,  TODO [COMPLETER]
@@ -28,9 +28,9 @@ Are you tired of not waking up (like Théo and Loïc) :trollface:? We got the so
 - IOT
 - Electronic
 - Fritzing
-- Paint (for Diego)
+- Paint (for Diego :trollface:)
 
-## 3D Modeling
+## 3D Modeling :chart_with_upwards_trend:
 - Link : https://www.tinkercad.com/things/e57LVS0muZ7
 - Preview : 
 
@@ -58,37 +58,37 @@ Are you tired of not waking up (like Théo and Loïc) :trollface:? We got the so
 
        
 ## Requirements  
-Arduino UNO
+Arduino UNO :pager:
 - Price : https://store.arduino.cc/arduino-uno-rev3
 - Preview :
 
 ![alt text](https://projetsdiy.fr/wp-content/uploads/2017/10/diy-dccduino-atmega328-development-board-for-arduino-uno-r3-blue-1-e1557480625518.jpg "Arduino UNO")
 
-Bluetooth Module HC-05
+Bluetooth Module HC-05 :calling:
 - Price : https://www.amazon.fr/Hc05-Bluetooth-Module/s?k=Hc05+Bluetooth+Module
 - Preview :
 
 ![alt text](https://www.mataucarre.fr/wp-content/uploads/2018/04/hc05.jpeg "Bluetooth module HC-05")
 
-Speaker
+Speaker :sound:
 - Price : https://www.amazon.com/Sound-Oasis-SP-101-Therapy-Speakers/dp/B004H5IXUS/?tag=sleepadvisor-169-1-20
 - Preview : 
 
 ![alt text](https://res.cloudinary.com/rsc/image/upload/b_rgb:FFFFFF,c_pad,dpr_1.0,f_auto,h_393,q_auto,w_700/c_pad,h_393,w_700/F4318658-01?pgw=1 "Haut-parleur Visaton, 8Ω, 2W")
 
-Accelerometer
+Accelerometer :clock1:
 - Price : https://www.amazon.com/s?k=Arduino+Accelerometer
 - Preview :  
 
 ![alt text](https://res.cloudinary.com/rsc/image/upload/b_rgb:FFFFFF,c_pad,dpr_1.0,f_auto,h_393,q_auto,w_700/c_pad,h_393,w_700/F9054665-01?pgw=1 "Adafruit MMA8451")
 
-Microphone
+Microphone :mega:
 - Price : https://www.amazon.com/s?k=Arduino+Microphone
 - Preview : 
 
 ![alt text](https://ae01.alicdn.com/kf/Haf5332f68c234abf9eda3453f664d5a4S/Contr-le-automatique-de-Gain-de-Module-de-carte-d-amplificateur-d-agc-de-Microphone-de.jpg "MAX9814")
 
-## How it works  
+## How it works :arrow_forward:
 
 To use the pillow, you'll need to download the mobile application. This application will mainly help you to configure your pillow. 
 
