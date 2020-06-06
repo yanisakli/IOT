@@ -14,7 +14,7 @@ Dreamjob is a school project that has been designed with the help of five of the
 - Link : https://www.tinkercad.com/things/e57LVS0muZ7
 - Preview : 
 
-![alt text](https://github.com/yanisakli/IOT/blob/master/Images/Oreiller%20connect%C3%A9.png "3D modeling")
+![alt text](https://github.com/yanisakli/IOT/blob/master/Images/oreiller_connecte.png "3D modeling")
 
 ## Usage  
 
@@ -69,4 +69,4 @@ Microphone
 
 ## How it works  
 
-To use the pillow, you'll need to download the mobile application. This application will 
+To use the pillow, you'll need to download the mobile application. This application will mainly help you to configure your pillow
